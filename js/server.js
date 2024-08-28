@@ -12,7 +12,7 @@ app.use(cors()); // Use CORS to allow requests from other origins
 const connection = mysql.createConnection({
     host: 'localhost', // MySQL server address
     user: 'root', // MySQL username
-    password: '', // MySQL password (empty for XAMPP default configuration)
+    password: 'root', // MySQL password (empty for XAMPP default configuration)
     database: 'user_mgmt' // Database name
 });
 
