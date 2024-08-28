@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: rgb(105, 105, 105);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@ body {
 
 h1,
 h2 {
-    color: #333;
+    color: #d9d9d9;
     margin: 0;
     /* Remove margens padrão dos títulos */
 }
@@ -31,7 +31,7 @@ button {
     width: 10%;
     height: 42px;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #005dc0;
     color: white;
     border: none;
     border-radius: 5px;
@@ -40,7 +40,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #004b9a;
 }
 
 ul {
@@ -67,10 +67,14 @@ li:last-child {
 }
 
 li button {
-    background-color: red;
+    background-color: #c00000;
     padding: 5px 10px;
     border: none;
     /* Remove a borda dos botões de excluir */
     color: white;
     /* Define a cor do texto para o botão de excluir */
+}
+
+li button:hover {
+    background-color: #8a0000;
 }

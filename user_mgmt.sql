@@ -1,3 +1,4 @@
+CREATE DATABASE user_mgmt;
 USE user_mgmt;
 
 CREATE TABLE users (
