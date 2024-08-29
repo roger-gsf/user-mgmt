@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>User Management</title>
-    <link rel="stylesheet" href="./css/style.css"> <!-- Link to the CSS stylesheet -->
-</head>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body>
-    <h1>User Management</h1> <!-- Project title -->
-    <h2>Add User</h2> <!-- Subtitle -->
-
-    <input type="text" id="name" placeholder="Name"> <!-- Input field for the user's name -->
-    <input type="email" id="email" placeholder="Email"> <!-- Input field for the user's email -->
-    <input type="password" id="password" placeholder="Password"> <!-- Input field for the user's password -->
+  <body>
+    <h1>User Management</h1>
+    <h2>Add User</h2>
+    <input type="text" id="name" placeholder="Name" />
+    <input type="email" id="email" placeholder="Email" />
+    <input type="password" id="password" placeholder="Password" />
     <button onclick="addUser()">Add</button>
-    <br>
-    <!-- Button to add the user, which calls a function that adds the user -->
+    <br />
     <h2>User List</h2>
     <button onclick="getUsers()">Refresh List</button>
-    <!-- Button to refresh the user list, which calls a function that updates the list -->
-    <ul id="users"></ul> <!-- List to display the users -->
-
-    <script src="./js/script.js"></script> <!-- Link to the JavaScript file -->
-</body>
+    <ul id="users"></ul>
+    <script src="./js/script.js"></script>
+  </body>
 
 </html>

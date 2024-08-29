@@ -1,80 +1,70 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: rgb(105, 105, 105);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    /* Empilha os elementos verticalmente */
-    text-align: center;
-    /* Centraliza o texto dentro dos elementos */
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* Empilha os elementos verticalmente */
+  text-align: center;
+  /* Centraliza o texto dentro dos elementos */
 }
 
 h1,
 h2 {
-    color: #d9d9d9;
-    margin: 0;
-    /* Remove margens padrão dos títulos */
+  color: #d9d9d9;
+  margin: 0;
+  /* Remove margens padrão dos títulos */
 }
 
 input {
-    width: 300px;
-    /* Define uma largura fixa para os campos de entrada */
-    margin: 10px 0;
-    padding: 10px;
-    font-size: 16px;
+  width: 300px;
+  /* Define uma largura fixa para os campos de entrada */
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
 }
 
 button {
-    width: 10%;
-    height: 42px;
-    padding: 10px 20px;
-    background-color: #005dc0;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 10px 0;
+  width: 10%;
+  height: 42px;
+  padding: 10px 20px;
+  background-color: #005dc0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
 }
 
 button:hover {
-    background-color: #004b9a;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    width: 300px;
-    /* Define uma largura fixa para a lista */
-    margin: 0 auto;
-    /* Centraliza a lista horizontalmente */
+  background-color: #004b9a;
 }
 
 li {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* Alinha o conteúdo verticalmente */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-li:last-child {
-    border-bottom: none;
-    /* Remove a borda inferior do último item da lista */
+ul {
+  width: 20%;
+  margin: 0 auto;
 }
 
 li button {
-    background-color: #c00000;
-    padding: 5px 10px;
-    border: none;
-    /* Remove a borda dos botões de excluir */
-    color: white;
-    /* Define a cor do texto para o botão de excluir */
+  background-color: #c00000;
+  padding: 5px 10px;
+  color: white;
 }
 
 li button:hover {
-    background-color: #8a0000;
+  background-color: #8a0000;
+}
+
+#users {
+  width: 50%;
 }
